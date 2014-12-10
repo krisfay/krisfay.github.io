@@ -1,0 +1,80 @@
+body {
+	-webkit-background-size: cover;
+	color: #252525;
+	font-family: Georgia, serif;
+	font-size: 16.5px;
+	background-attachment: fixed;
+	background-image: url(file:///C|/Users/Kristi/Desktop/Kristi%20Portfolio/New%20Folder/Lighthouse.jpg);
+	background-position: 50% 50%;
+}
+h1 {
+  font-size:65px;
+  line-height:0.8;
+  margin:30px 0 30px 4px;
+}
+h3 {
+  background:#CFC6C2;
+  border-bottom-left-radius:5px;
+  color:white;
+  font-size:19px;
+  font-weight:lighter;
+  letter-spacing:1.25px;
+  margin:15px 0;
+  padding:10px;
+}
+p {
+  color:#3B3B3B;
+  line-height:25px;
+  margin:0;
+  padding:10px 20px 0 7px;
+}
+a {
+  color:#FF9A6B;
+  text-decoration:none;
+}
+.social-media ul li {
+  float:left;
+  padding-top:12px;
+}
+.social-media ul li a {
+  background:url(http://skillcrush.com/static/resume-two/images/social.png);
+  display:block;
+  height:31px;
+  margin:0;
+  overflow:hidden;
+  padding:0;
+  text-indent:100%;
+  white-space:nowrap;
+  width:32px;
+}
+.social-media ul li.instagram a {
+  background:url(http://skillcrush.com/static/resume-two/images/social.png) 0px 0;
+  margin-right:5px;
+}
+.social-media ul li.twitter a {
+  background:url(http://skillcrush.com/static/resume-two/images/social.png) 63px 62px;
+  margin-right:3px;
+}
+.social-media ul li.dribbble a {
+  background-position:-160px 62px;
+  margin-right:3px;
+}
+.social-media ul li.instagram a:hover {
+  background-position:0 31px;
+}
+.social-media ul li.twitter a:hover {
+  background-position:63px 31px;
+}
+.social-media ul li.dribbble a:hover {
+  background-position:-160px 93px;
+}
+#container {
+  background:rgba(255, 255, 255, 0.901961);
+  border-bottom-left-radius:5px;
+  border-top-left-radius:5px;
+  float:right;
+  height:485px;
+  margin-top:40px;
+  padding:5px 0 10px 20px;
+  width:380px;
+}
